@@ -53,7 +53,7 @@ func newBinaryReaderBuf(in *bufio.Reader, cat Catalog) Reader {
 // attributes, or incorrectly parse data values.
 //
 // This API is experimental and should be considered unstable.
-// See https://github.com/amazon-ion/ion-go/pull/196
+// See https://github.com/oskoi/ion-go/pull/196
 func (r *binaryReader) Reset(in []byte) error {
 	if r.resetPos == invalidReset {
 		return &UsageError{"binaryReader.Reset", "cannot reset when multiple local symbol tables found"}

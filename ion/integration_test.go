@@ -113,7 +113,7 @@ var malformedIonsSkipList = []string{
 
 var equivsSkipList = []string{
 	"nonIVMNoOps.ion",
-	"stringUtf8.ion", // fails on utf-16 surrogate https://github.com/amazon-ion/ion-go/issues/75
+	"stringUtf8.ion", // fails on utf-16 surrogate https://github.com/oskoi/ion-go/issues/75
 }
 
 var nonEquivsSkipList []string

@@ -18,7 +18,7 @@ package main
 import (
 	"math/big"
 
-	"github.com/amazon-ion/ion-go/ion"
+	"github.com/oskoi/ion-go/ion"
 )
 
 type nopwriter struct{}
