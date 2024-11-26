@@ -146,6 +146,10 @@ func (d *Decoder) Decode() (interface{}, error) {
 	return d.decode()
 }
 
+func (d *Decoder) DecodeAfterNext() (interface{}, error) {
+	return d.decode()
+}
+
 // Helper form of Decode for when you've already called Next.
 func (d *Decoder) decode() (interface{}, error) {
 	if d.r.IsNull() {
